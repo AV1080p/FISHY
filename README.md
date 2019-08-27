@@ -7,7 +7,7 @@ This code was created in a couple of hours and is really unstable. However, the 
 
 Be careful of what you think is a legitimate site!
 
-__** Example: **__
+__* Example: *__
 ![alt text](https://i.imgur.com/NgKnBVq.png)
 
 # EDUCATIONAL PURPOSES ONLY!
