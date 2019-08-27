@@ -7,8 +7,8 @@ This code was created in a couple of hours and is really unstable. However, the 
 
 Be careful of what you think is a legitimate site!
 
-__* Example: *__
+### Example:
 ![alt text](https://i.imgur.com/NgKnBVq.png)
 
-# EDUCATIONAL PURPOSES ONLY!
+## EDUCATIONAL PURPOSES ONLY!
 Warning: Only use this software according to your current legislation. Misuse of this software can raise legal and ethical issues which I don't support nor can be held responsible for.
