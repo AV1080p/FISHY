@@ -1,6 +1,6 @@
 @font-face {
     font-family: chrome;
-    src: url(https://github.com/openworldoperations/FISHY/blob/master/inc/css/segoe.ttf);
+    src: url(segoe.ttf);
   }
   body {
     background: #aa4b6b;  /* fallback for old browsers */
