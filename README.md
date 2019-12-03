@@ -16,7 +16,7 @@ Be careful of what you think is a legitimate site!
 
 ### Example:
 
-![alt text](https://i.imgur.com/NgKnBVq.png)
+![alt text](https://i.imgur.com/0cYX30a.png)
 
 ## EDUCATIONAL PURPOSES ONLY!
 
