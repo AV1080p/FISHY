@@ -13,6 +13,12 @@ You could further improve on this implementation and allow them to inspect the S
 Be careful of what you think is a legitimate site!
 Sometimes the human eye can never tell.
 
+## FISHY Features: ###
+___** Loading/busy cursor before appearing, giving the effect their computer is loading the browser. Using system resources. **___
+___** SSL text isn't usually green like the this anymore. However, the brain correlates to: Green = "Go" **___
+___** Browser can be closed using caption buttons. **___
+___** Could be used with a reverse proxy server in order to phish your victims. Along with capturing 2FA and authenticating your box. **___
+
 ### Example:
 
 ![alt text](https://i.imgur.com/0cYX30a.png)
