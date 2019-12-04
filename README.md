@@ -19,6 +19,11 @@ Sometimes the human eye can never tell.
 * _Browser can be closed using caption buttons._
 * _Can be used with a reverse proxy server in order to phish your victims (in order to bypass 2FA)._
 
+### TODO: ###
+* _Fix caption buttons (alignment)._
+* _Create the option to view the SSL certificate._
+* _Make the SSL icon the new icon._
+
 ### Example:
 
 ![alt text](https://i.imgur.com/R3nPO1q.png)
