@@ -21,7 +21,7 @@ Sometimes the human eye can never tell.
 
 ### Example:
 
-![alt text](https://i.imgur.com/0cYX30a.png)
+![alt text](https://i.imgur.com/R3nPO1q.png)
 
 ## EDUCATIONAL PURPOSES ONLY!
 
