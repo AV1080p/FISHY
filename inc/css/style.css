@@ -66,11 +66,7 @@
     cursor: text;
     z-index: 2;
   }
-  
-  #urlbar:hover {
-    background-color: #ebedee4b;
-  }
-  
+
   #SSL {
     color: #29905A;
     position: absolute;
