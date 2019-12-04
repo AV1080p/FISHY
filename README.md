@@ -10,9 +10,8 @@ The only way the victim could notice the attack, is if the victim tried to drag 
 
 You could further improve on this implementation and allow them to inspect the SSL certificate and input a valid certificate.
 
-This code was created in a couple of hours and is really unstable. However, the concept is simple. Yet intricate.
-
 Be careful of what you think is a legitimate site!
+Sometimes the human eye can never tell.
 
 ### Example:
 
