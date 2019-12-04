@@ -23,7 +23,7 @@ Sometimes the human eye can never tell.
 * _Fix caption buttons (alignment)._
 * _Create the option to view the SSL certificate._
 * _Make the SSL icon the new icon._
-* _Tiny pixel changes because if I can notice something off, that's all that matters..._
+* _Tiny pixel changes because if I can notice something off, I will never let it go._
 
 ### Example:
 
