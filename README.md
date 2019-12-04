@@ -17,7 +17,7 @@ Sometimes the human eye can never tell.
 * _Loading/busy cursor before appearing, giving the effect their computer is loading the browser. Using system resources._
 * _SSL text isn't usually green like the this anymore. However, the brain correlates to: Green = "Go"._
 * _Browser can be closed using caption buttons._
-* _Could be used with a reverse proxy server in order to phish your victims. Along with capturing 2FA and authenticating your box._
+* _Can be used with a reverse proxy server in order to phish your victims (in order to bypass 2FA)._
 
 ### Example:
 
