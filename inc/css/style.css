@@ -2,6 +2,7 @@
     font-family: chrome;
     src: url(segoe.ttf);
   }
+  
   body {
     background: #aa4b6b;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
@@ -39,7 +40,7 @@
     padding-top: 5px;
     color: #000;
     font-size: 13px;
-    font-weight: 150px;
+    font-weight: 550;
     position: absolute;
   }
   
@@ -69,7 +70,7 @@
     color: #29905A;
     position: absolute;
     padding-left: 32px;
-    padding-top: 0.25em;
+    padding-top: 0.21em;
     z-index: 1;
     cursor: default;
   }
@@ -93,7 +94,7 @@
   #urltext {
     padding-left: 147px;
     position: absolute;
-    padding-top: 0.25em;
+    padding-top: 0.21em;
     height: 25px;
     width: 60%;
     border: none;
@@ -112,3 +113,4 @@
     border: 0;
     z-index: -1;
   }
+ 
