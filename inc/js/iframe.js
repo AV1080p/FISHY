@@ -26,7 +26,7 @@ function mouseOverClose() {
   }
   
   function mouseOutClose() {
-    document.getElementById("close").style.backgroundColor = "#ffffff";
+    document.getElementById("close").style.backgroundColor = "#D5D9DC";
 }
 
 // Stop breakline in the URL Bar
