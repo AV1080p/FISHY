@@ -25,18 +25,23 @@
     box-shadow: 5px 10px 18px rgba(0,0,0,0.3);;
     z-index: 1;
   }
+  #titlebar {
+    height: 3em;
+    width: 60em;
+    background-color: #D5D9DC;
+  }
   
   #favicon {
     margin-right: 10px;
-    width: 19px;
-    padding-top: 4px;
-    padding-left: 4px;
+    width: 14px;
+    padding-top: 6px;
+    padding-left: 6px;
     position: absolute;
   }
   
   #title {
     font-family: chrome;
-    padding-left: 26px;
+    padding-left: 28px;
     padding-top: 5px;
     color: #000;
     font-size: 13px;
@@ -57,13 +62,13 @@
     margin-top: 2em;
     border-top: solid .8px #A9A9A9;
     border-bottom: solid .8px #A9A9A9;
-    background-color: #F1F3F4;
+    background-color: #FFF;
     cursor: text;
     z-index: 2;
   }
   
   #urlbar:hover {
-    background-color: #ebedee;
+    background-color: #ebedee4b;
   }
   
   #SSL {
@@ -113,4 +118,3 @@
     border: 0;
     z-index: -1;
   }
- 
